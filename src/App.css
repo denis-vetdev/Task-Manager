@@ -1,38 +1,51 @@
-.App {
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+div {
   text-align: center;
+  font-size: 50px;
+  background-color: rgb(97, 185, 102);
+}
+h1 {
+  font-size: 35px;
+  color: rgb(244, 247, 244);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-size: 25px;
+  color: rgb(244, 247, 244);
+}
+input {
+  margin: 20px;
+  height: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+input .checkbox {
+  width: 15px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  color: rgb(240, 247, 242);
+  background-color: rgb(20, 94, 42);
+  transition-duration: 0.4s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  background-color: aquamarine;
+  color: aliceblue;
+}
+
+ul {
+  font-size: 20px;
+  align-items: center;
 }
