@@ -39,7 +39,7 @@ const App = () => {
       <ul>
         {filteredTasks.map((task, index) => (
           <li key={index}>
-            <input type="checkbox" class="chekbox" checked={task.completed} onChange={() => toggleCompleted(index)}/>
+            <input type="checkbox" class="checkbox" checked={task.completed} onChange={() => toggleCompleted(index)}/>
             {task.name}
           </li>
         ))}
